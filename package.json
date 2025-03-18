@@ -55,7 +55,7 @@
     "yup": "^0.32.8"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "legacy": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
